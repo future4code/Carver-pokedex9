@@ -7,8 +7,7 @@ import { goToPokedex } from '../../routers/coordinator'
 
 const PokemonsListScreen = () => {
     const { pokemons } = useContext(GlobalStateContext);
-    // const history = useHistory();
-
+    console.log(pokemons)
     return (
         <>
             <PokeListContainer>
