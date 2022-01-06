@@ -10,7 +10,7 @@ export const DisplayPrincipal = styled.div `
 export const DisplayButton = styled.div `
     display: flex;
     justify-content: space-between;
-    width: 200px
+    width: 500px;
 ` 
 
 // ==== Display Header ====
@@ -26,13 +26,20 @@ export const ImagemPrincipalHeader = styled.img `
     height: 75px;
 `
 export const ButtonHeaderConfig = styled.button `
+    display: flex;
     background-color: #e00000;
     border: 1px #e00000 solid;
     border-radius: 10px;
-    width: 90px;
+    width: 250px;
     height: 30px;
     font-size: 24px;
     font-weight: bold;
+    color: #ffcb05;
+    text-shadow: 2px 0 0 #395ea9, -2px 0 0 #395ea9, 0 2px 0 #395ea9, 0 -2px 0 #395ea9, 1px 1px #395ea9, -1px -1px 0 #395ea9, 1px -1px 0 #395ea9, -1px 1px 0 #395ea9;
+    cursor: pointer;
+`
+
+export const TitleHeader = styled.h1 `
     color: #ffcb05;
     text-shadow: 2px 0 0 #395ea9, -2px 0 0 #395ea9, 0 2px 0 #395ea9, 0 -2px 0 #395ea9, 1px 1px #395ea9, -1px -1px 0 #395ea9, 1px -1px 0 #395ea9, -1px 1px 0 #395ea9;
 `
