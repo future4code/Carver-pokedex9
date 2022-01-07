@@ -12,9 +12,11 @@ const Header = (props) => {
                 <Styled.ButtonHeaderConfig onClick={() => {props.pokedex(props.history)}}>Pokedex</Styled.ButtonHeaderConfig>
             </Styled.DisplayButton>
             
+            
         </Styled.DisplayHeader>
         
     )
 }
+
 
 export default Header;
