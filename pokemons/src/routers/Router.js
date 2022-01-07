@@ -9,14 +9,16 @@ const Router = () => {
         <BrowserRouter>
             <Switch>
                 <Route exact path="/"
-                    component={PokemonsListScreen}
-                />
-                <Route exact path="/pokemon/:name/:telaPokedex?"
+                    component={PokemonsListScreen} />
+                <Route
+                    exact path="/pokemon/:name/:telaPokedex?"
                     component={PokemonDetailScreen}
                 />
                 <Route exact path="/pokedex"
-                    components={PokedexScreen}
-                />
+                    component={PokedexScreen} />
+                <Route>
+                    <div>Erro - Página não encontrada</div>
+                </Route>
             </Switch>
         </BrowserRouter>
     )
