@@ -21,6 +21,7 @@ export const DisplayHeader = styled.div `
     justify-content: space-around;
     align-items: center;
     border: 1px #d10000 solid;
+    position: relative;
 `
 export const ImagemPrincipalHeader = styled.img `
     height: 75px;
