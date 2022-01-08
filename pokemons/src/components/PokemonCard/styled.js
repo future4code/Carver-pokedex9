@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { backgroundCard } from "../../constants/colors";
 
 export const PokeCardContainer = styled.div`
-  height: 35vh;
+  height: 40vh;
   width: 250px;
   margin: 10px;
   display: grid;
@@ -14,8 +14,8 @@ export const ImgContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
 `;
 
 export const PokeImg = styled.img`
