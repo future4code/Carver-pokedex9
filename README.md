@@ -1,16 +1,17 @@
 # POKEDEX
 
 Nome dos integrantes: 
-- Pessoa 1
-- Pessoa 2
-- Pessoa 3
+- Larissa Matos
+- Nayara Santos
+- Maria Fernanda Lançoni
 
-Link do Surge: www.link.com.br
+Link do Surge: https://flowery-fear.surge.sh/
 
 O que funciona:
-- Item 1
-- Item 2
+- Função de adicionar a pokedex;
+- Função de detalhes;
+- Header com encaminhamento para home;
+- Header com encaminhamento para pokedex;
 
 O que não funciona: 
-- Item 3
-- Item 4
+- remover pokemon da pokedex;
